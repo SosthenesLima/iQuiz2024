@@ -1,9 +1,9 @@
-//
-//  SceneDelegate.swift
-//  iQuiz
-//
-//  Created by Sósthenes Oliveira Lima on 05/02/24.
-//
+/*
+   SceneDelegate.swift
+   iQuiz
+
+   Created by Sósthenes Oliveira Lima on 05/02/24.
+*/
 
 import UIKit
 
