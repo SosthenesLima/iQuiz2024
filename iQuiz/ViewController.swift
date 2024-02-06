@@ -1,9 +1,9 @@
-//
-//  ViewController.swift
-//  iQuiz
-//
-//  Created by Sósthenes Oliveira Lima on 05/02/24.
-//
+/*
+ViewController.swift
+iQuiz
+
+ Created by Sósthenes Oliveira Lima on 05/02/24.
+*/
 
 import UIKit
 
