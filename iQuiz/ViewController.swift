@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var botaoiniciarQuiz: UIButton!
     
+    
     @IBAction func botaoPressionado(_ sender: Any) {
         print("O Botão foi pressionado!")
     }
@@ -21,6 +22,7 @@ class ViewController: UIViewController {
     
     func configuraLayout() {
         botaoiniciarQuiz.layer.cornerRadius = 12.0
+        
     }
 
 }
