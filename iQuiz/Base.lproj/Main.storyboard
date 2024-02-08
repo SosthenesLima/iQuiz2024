@@ -71,7 +71,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h82-aw-lqA">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h82-aw-lqA">
                                 <rect key="frame" x="64" y="420" width="302" height="62"/>
                                 <color key="backgroundColor" red="0.4549019608" green="0.1960784314" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -82,8 +82,11 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Resposta02">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="respostaBotaoPressionado:" destination="AsM-nD-o72" eventType="touchUpInside" id="GRT-yO-qCm"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1m-7p-dSM">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1m-7p-dSM">
                                 <rect key="frame" x="64" y="514" width="302" height="62"/>
                                 <color key="backgroundColor" red="0.4549019608" green="0.1960784314" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -94,8 +97,11 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Resposta03">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="respostaBotaoPressionado:" destination="AsM-nD-o72" eventType="touchUpInside" id="V1Z-XH-11z"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3w-tr-8m0">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3w-tr-8m0">
                                 <rect key="frame" x="64" y="326" width="302" height="62"/>
                                 <color key="backgroundColor" red="0.45490196078431372" green="0.19607843137254902" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -106,6 +112,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Resposta01">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="respostaBotaoPressionado:" destination="AsM-nD-o72" eventType="touchUpInside" id="2zy-Ap-Wir"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Riz-aF-32O"/>
@@ -126,6 +135,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="flF-AJ-zJR"/>
+                    <connections>
+                        <outlet property="tituloQuestaoLabel" destination="PPN-le-YkZ" id="rgq-hI-tPO"/>
+                        <outletCollection property="botaoRespostas" destination="Y3w-tr-8m0" collectionClass="NSMutableArray" id="lSg-mD-rJf"/>
+                        <outletCollection property="botoesRespostas" destination="Y3w-tr-8m0" collectionClass="NSMutableArray" id="vDm-kq-HG2"/>
+                        <outletCollection property="botoesRespostas" destination="Y3w-tr-8m0" collectionClass="NSMutableArray" id="pal-I2-Jsx"/>
+                        <outletCollection property="botaoRespostas" destination="Y3w-tr-8m0" collectionClass="NSMutableArray" id="Oo1-Pa-en4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tX5-ji-Gdq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
