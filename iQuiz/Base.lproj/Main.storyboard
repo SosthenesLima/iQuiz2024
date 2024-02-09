@@ -136,11 +136,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="flF-AJ-zJR"/>
                     <connections>
-                        <outlet property="tituloQuestaoLabel" destination="PPN-le-YkZ" id="rgq-hI-tPO"/>
-                        <outletCollection property="botaoRespostas" destination="Y3w-tr-8m0" collectionClass="NSMutableArray" id="lSg-mD-rJf"/>
-                        <outletCollection property="botoesRespostas" destination="Y3w-tr-8m0" collectionClass="NSMutableArray" id="vDm-kq-HG2"/>
-                        <outletCollection property="botoesRespostas" destination="Y3w-tr-8m0" collectionClass="NSMutableArray" id="pal-I2-Jsx"/>
-                        <outletCollection property="botaoRespostas" destination="Y3w-tr-8m0" collectionClass="NSMutableArray" id="Oo1-Pa-en4"/>
+                        <outlet property="tituloQuestaoLabel" destination="PPN-le-YkZ" id="q5G-q7-PE5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tX5-ji-Gdq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
