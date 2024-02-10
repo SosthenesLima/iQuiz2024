@@ -1,9 +1,9 @@
-//
-//  AppDelegate.swift
-//  iQuiz
-//
-//  Created by Giovanna Moeller on 14/02/23.
-//
+/*
+ AppDelegate.swift
+   iQuiz
+
+   Created by Sósthenes Oliveira Lima on 02/02/2024.
+*/
 
 import UIKit
 
