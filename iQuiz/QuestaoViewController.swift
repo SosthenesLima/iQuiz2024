@@ -22,7 +22,12 @@ class QuestaoViewController: UIViewController {
     }
     @IBOutlet var botoesResposta: [UIButton]!
     @IBAction func respostaBotaoPressionado(_ sender: UIButton) {
-        print(sender.tag)
+        let usuarioAcertouResposta = questoes[numeroQuestao].respostaCorreta == sender.tag
+        
+        if usuarioAcertouResposta {
+            pontuacao += 1
+            print("O usuário acertou!")
+        }
         
     }
     
