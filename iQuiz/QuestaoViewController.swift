@@ -37,6 +37,11 @@ class QuestaoViewController: UIViewController {
     
     func configurarQuestao(){
         tituloQuestaoLabel.text = questoes[numeroQuestao].titulo
+        for botao in botoesResposta {
+            let tituloBotao = questoes[numeroQuestao].respostas[botao.tag]
+            botao.setTitle(tituloBotao, for: .normal)
+        }
+        
     }
     
     /*
