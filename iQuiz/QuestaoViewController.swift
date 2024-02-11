@@ -37,9 +37,7 @@ class QuestaoViewController: UIViewController {
             Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(configurarQuestao), userInfo: nil, repeats: false)
             //configurarQuestao()
         } else {
-            navegaParaTelaDesempenho() {
-                
-            }
+            navegaParaTelaDesempenho() 
         }
     }
     
