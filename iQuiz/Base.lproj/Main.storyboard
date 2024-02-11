@@ -139,6 +139,7 @@
                         <outletCollection property="botoesResposta" destination="q35-zA-bMv" collectionClass="NSMutableArray" id="Oc8-IB-qCe"/>
                         <outletCollection property="botoesResposta" destination="0ae-TG-UYX" collectionClass="NSMutableArray" id="AOQ-lh-TYy"/>
                         <outletCollection property="botoesResposta" destination="ek1-WA-LWA" collectionClass="NSMutableArray" id="whf-Jg-gg3"/>
+                        <segue destination="qcF-bT-e5Y" kind="show" identifier="irParaTelaDesempenho" id="skO-W4-Sku"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gtm-16-rgZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -150,23 +151,23 @@
             <objects>
                 <viewController id="qcF-bT-e5Y" customClass="DesempenhoViewController" customModule="iQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nRC-Xw-hw5">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Você finalizou o iQuiz!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lxt-dD-ofv">
-                                <rect key="frame" x="64" y="171" width="265" height="76.666666666666686"/>
+                                <rect key="frame" x="64" y="112" width="265" height="76.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Você acertou 2 de 10 Questões!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRc-2t-z0w">
-                                <rect key="frame" x="64" y="319.66666666666669" width="265" height="76.666666666666686"/>
+                                <rect key="frame" x="64" y="260.66666666666669" width="265" height="76.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Percetual final: 20%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hpn-2I-lHx">
-                                <rect key="frame" x="64" y="468.33333333333331" width="265" height="71.999999999999943"/>
+                                <rect key="frame" x="64" y="409.33333333333331" width="265" height="72"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="72" id="TbO-pH-0ba"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="62" id="Zdm-gP-LCb"/>
@@ -210,6 +211,7 @@
                             <constraint firstItem="oRc-2t-z0w" firstAttribute="top" secondItem="lxt-dD-ofv" secondAttribute="bottom" constant="72" id="zoO-eO-M95"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="5wP-fN-AFJ"/>
                     <connections>
                         <outlet property="botaoReiniciarQuiz" destination="qXr-HV-aYs" id="ZHI-IS-DGR"/>
                         <outlet property="percetualLabel" destination="Hpn-2I-lHx" id="a3b-BS-Aqd"/>
@@ -240,6 +242,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="skO-W4-Sku"/>
         <segue reference="hMg-Tr-nLO"/>
     </inferredMetricsTieBreakers>
     <resources>
