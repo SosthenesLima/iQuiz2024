@@ -29,6 +29,10 @@ class QuestaoViewController: UIViewController {
             print("O usuário acertou!")
         }
         
+        if numeroQuestao < questoes.count - 1   {
+            numeroQuestao += 1
+            configurarQuestao()
+        }
     }
     
     func configurarLayout() {
