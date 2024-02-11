@@ -166,10 +166,9 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Percetual final: 20%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hpn-2I-lHx">
-                                <rect key="frame" x="64" y="409.33333333333331" width="265" height="72"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Percetual final: 20%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hpn-2I-lHx">
+                                <rect key="frame" x="64" y="411.33333333333331" width="265" height="62"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="72" id="TbO-pH-0ba"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="62" id="Zdm-gP-LCb"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="62" id="uPa-ia-biD"/>
                                 </constraints>
@@ -177,10 +176,12 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXr-HV-aYs">
-                                <rect key="frame" x="103" y="655" width="159" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXr-HV-aYs">
+                                <rect key="frame" x="64" y="545.33333333333337" width="265" height="62"/>
                                 <color key="backgroundColor" red="0.4549019608" green="0.1960784314" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="tNZ-FU-ke6"/>
+                                </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reiniciar iQuiz">
@@ -195,19 +196,17 @@
                         <color key="backgroundColor" red="0.32156862745098036" green="0.11764705882352941" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="VNu-ms-Ecj" firstAttribute="trailing" secondItem="Hpn-2I-lHx" secondAttribute="trailing" constant="64" id="0Xf-MZ-guP"/>
-                            <constraint firstItem="Hpn-2I-lHx" firstAttribute="top" secondItem="oRc-2t-z0w" secondAttribute="bottom" constant="72" id="71L-bK-dRe"/>
+                            <constraint firstItem="qXr-HV-aYs" firstAttribute="top" secondItem="Hpn-2I-lHx" secondAttribute="bottom" constant="72" id="0vg-Lb-toq"/>
                             <constraint firstItem="lxt-dD-ofv" firstAttribute="leading" secondItem="VNu-ms-Ecj" secondAttribute="leading" constant="64" id="Bl2-Dp-UpC"/>
                             <constraint firstItem="Hpn-2I-lHx" firstAttribute="leading" secondItem="VNu-ms-Ecj" secondAttribute="leading" constant="64" id="DHC-49-Bdf"/>
-                            <constraint firstItem="Hpn-2I-lHx" firstAttribute="leading" secondItem="VNu-ms-Ecj" secondAttribute="leading" constant="64" id="IOI-rj-Eub"/>
+                            <constraint firstItem="VNu-ms-Ecj" firstAttribute="trailing" secondItem="qXr-HV-aYs" secondAttribute="trailing" constant="64" id="Jgs-sh-5mZ"/>
                             <constraint firstItem="VNu-ms-Ecj" firstAttribute="trailing" secondItem="lxt-dD-ofv" secondAttribute="trailing" constant="64" id="O4M-tH-MZT"/>
                             <constraint firstItem="VNu-ms-Ecj" firstAttribute="trailing" secondItem="Hpn-2I-lHx" secondAttribute="trailing" constant="64" id="Tou-kr-BcK"/>
                             <constraint firstItem="lxt-dD-ofv" firstAttribute="top" secondItem="VNu-ms-Ecj" secondAttribute="top" constant="112" id="Tph-Xp-No4"/>
-                            <constraint firstItem="Hpn-2I-lHx" firstAttribute="leading" secondItem="VNu-ms-Ecj" secondAttribute="leading" constant="62" id="Yfx-Tn-NFU"/>
                             <constraint firstItem="oRc-2t-z0w" firstAttribute="leading" secondItem="VNu-ms-Ecj" secondAttribute="leading" constant="64" id="cMG-Nl-UJn"/>
+                            <constraint firstItem="qXr-HV-aYs" firstAttribute="leading" secondItem="VNu-ms-Ecj" secondAttribute="leading" constant="64" id="dnn-Mw-4W8"/>
                             <constraint firstItem="Hpn-2I-lHx" firstAttribute="top" secondItem="oRc-2t-z0w" secondAttribute="bottom" constant="74" id="fG5-t5-RdU"/>
-                            <constraint firstItem="VNu-ms-Ecj" firstAttribute="trailing" secondItem="Hpn-2I-lHx" secondAttribute="trailing" constant="62" id="lSJ-t3-rnl"/>
                             <constraint firstAttribute="trailing" secondItem="oRc-2t-z0w" secondAttribute="trailing" constant="64" id="lwr-Or-Ywf"/>
-                            <constraint firstItem="Hpn-2I-lHx" firstAttribute="top" secondItem="oRc-2t-z0w" secondAttribute="bottom" constant="72" id="rqb-N9-0ke"/>
                             <constraint firstItem="oRc-2t-z0w" firstAttribute="top" secondItem="lxt-dD-ofv" secondAttribute="bottom" constant="72" id="zoO-eO-M95"/>
                         </constraints>
                     </view>
