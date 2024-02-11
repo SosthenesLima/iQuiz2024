@@ -34,7 +34,7 @@ class QuestaoViewController: UIViewController {
         
         if numeroQuestao < questoes.count - 1   {
             numeroQuestao += 1
-            Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(configurarQuestao), userInfo: nil, repeats: false)
+            Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(configurarQuestao), userInfo: nil, repeats: false)
             //configurarQuestao()
         }
     }

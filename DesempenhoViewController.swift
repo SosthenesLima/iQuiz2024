@@ -9,10 +9,22 @@ import UIKit
 
 class DesempenhoViewController: UIViewController {
 
+    @IBOutlet weak var resultadoLabel: UILabel!
+    
+    @IBOutlet weak var percetualLabel: UILabel!
+    
+    
+    @IBOutlet weak var botaoReiniciarQuiz: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        configurarLayout()
+    }
+    
+    func configurarLayout() {
+        botaoReiniciarQuiz.layer.cornerRadius = 12.0
     }
     
 
