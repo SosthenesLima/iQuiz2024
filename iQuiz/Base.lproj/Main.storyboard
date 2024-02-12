@@ -172,7 +172,7 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="62" id="Zdm-gP-LCb"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="62" id="uPa-ia-biD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -219,7 +219,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qpu-Ra-wjA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2702" y="-4"/>
+            <point key="canvasLocation" x="2703" y="-16"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Rvm-f6-w3k">
@@ -241,7 +241,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="skO-W4-Sku"/>
         <segue reference="hMg-Tr-nLO"/>
     </inferredMetricsTieBreakers>
     <resources>
